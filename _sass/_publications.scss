@@ -4,12 +4,12 @@
 
 @use "variables" as v;
 
-/* ── Tag color palette (mirrors yueyang's CSS vars) ───────────────────── */
+/* ── Tag palette — monochrome: all categories share one neutral grey ──── */
 :root {
-  --pub-color-dvc: #0891b2;
-  --pub-color-tvr: #7c3aed;
-  --pub-color-zsc: #059669;
-  --pub-color-dc:  #d97706;
+  --pub-color-dvc: #6b7280;
+  --pub-color-tvr: #6b7280;
+  --pub-color-zsc: #6b7280;
+  --pub-color-dc: #6b7280;
 }
 
 /* ── Section wrapper ──────────────────────────────────────────────────── */
@@ -26,7 +26,9 @@
 
   h2 {
     margin-bottom: 1rem;
-    span { font-size: 1.5rem; }
+    span {
+      font-size: 1.5rem;
+    }
   }
 
   h2.bibliography {
@@ -48,16 +50,10 @@
 
     li {
       background: var(--global-card-bg-color);
-      border: 1px solid #d1d5db;
-      border-radius: 8px;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 6px;
       overflow: hidden;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-      transition: box-shadow 0.3s ease;
       margin-bottom: 0;
-
-      &:hover {
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
-      }
 
       /* Fix Bootstrap row negative margin */
       .publication-entry {
@@ -89,7 +85,9 @@
 
           a {
             color: var(--global-theme-color);
-            &:hover { text-decoration: none; }
+            &:hover {
+              text-decoration: none;
+            }
           }
         }
 
@@ -100,7 +98,6 @@
 
         .preview {
           border-radius: 5px;
-          box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
           width: 100%;
           display: block;
         }
@@ -182,17 +179,18 @@
           margin-left: 0;
 
           &:hover {
-            background: #2563eb;
+            background: var(--global-theme-color);
             color: white;
-            transform: translateY(-1px);
-            box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
             text-decoration: none;
           }
         }
 
         a.award.btn {
           color: var(--global-highlight-color);
-          &:hover { background: var(--global-highlight-color); color: white; }
+          &:hover {
+            background: var(--global-highlight-color);
+            color: white;
+          }
         }
       }
 
@@ -204,7 +202,9 @@
           height: 100%;
           padding-right: 0.5rem;
           vertical-align: middle;
-          &:hover { text-decoration: underline; }
+          &:hover {
+            text-decoration: underline;
+          }
         }
       }
 
@@ -214,8 +214,15 @@
         overflow: hidden;
         text-align: justify;
         transition: all 0.15s ease;
-        p { line-height: 1.4em; margin: 10px; }
-        pre { font-size: 1em; line-height: 1.4em; padding: 10px; }
+        p {
+          line-height: 1.4em;
+          margin: 10px;
+        }
+        pre {
+          font-size: 1em;
+          line-height: 1.4em;
+          padding: 10px;
+        }
       }
 
       .hidden.open {
@@ -223,20 +230,26 @@
         transition: all 0.15s ease;
       }
 
-      div.abstract.hidden { border: dashed 1px var(--global-bg-color); }
-      div.abstract.hidden.open { border-color: var(--global-text-color); }
+      div.abstract.hidden {
+        border: dashed 1px var(--global-bg-color);
+      }
+      div.abstract.hidden.open {
+        border-color: var(--global-text-color);
+      }
     }
 
-    div.award.hidden { border: dashed 1px var(--global-bg-color); }
-    div.award.hidden.open { border-color: var(--global-highlight-color); }
+    div.award.hidden {
+      border: dashed 1px var(--global-bg-color);
+    }
+    div.award.hidden.open {
+      border-color: var(--global-highlight-color);
+    }
   }
 }
 
 html[data-theme="dark"] {
   .publications ol.bibliography li {
-    border-color: #374151;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
-    &:hover { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); }
+    border-color: var(--global-divider-color);
   }
 }
 
@@ -249,10 +262,10 @@ html[data-theme="dark"] {
 .pub-section-heading {
   font-size: 1.4rem;
   font-weight: 700;
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   margin: 2.5rem 0 0.25rem;
   padding-bottom: 0.4rem;
-  border-bottom: 2px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
 }
 
 /* ── Category filter — exact yueyang .tag-filters / .tag-btn style ───── */
@@ -281,7 +294,9 @@ html[data-theme="dark"] {
   white-space: nowrap;
   line-height: 1.5;
 
-  &:hover { opacity: 0.85; }
+  &:hover {
+    opacity: 0.85;
+  }
 
   &.is-active {
     background: #6b7280;
@@ -292,36 +307,72 @@ html[data-theme="dark"] {
   &[data-filter="Dense Video Captioning"] {
     border-color: var(--pub-color-dvc);
     color: var(--pub-color-dvc);
-    &:hover { background: var(--pub-color-dvc); color: white; opacity: 1; }
-    &.is-active { background: var(--pub-color-dvc); color: white; border-color: var(--pub-color-dvc); }
+    &:hover {
+      background: var(--pub-color-dvc);
+      color: white;
+      opacity: 1;
+    }
+    &.is-active {
+      background: var(--pub-color-dvc);
+      color: white;
+      border-color: var(--pub-color-dvc);
+    }
   }
 
   &[data-filter="Text-Video Retrieval"] {
     border-color: var(--pub-color-tvr);
     color: var(--pub-color-tvr);
-    &:hover { background: var(--pub-color-tvr); color: white; opacity: 1; }
-    &.is-active { background: var(--pub-color-tvr); color: white; border-color: var(--pub-color-tvr); }
+    &:hover {
+      background: var(--pub-color-tvr);
+      color: white;
+      opacity: 1;
+    }
+    &.is-active {
+      background: var(--pub-color-tvr);
+      color: white;
+      border-color: var(--pub-color-tvr);
+    }
   }
 
   &[data-filter="Zero-shot Captioning"] {
     border-color: var(--pub-color-zsc);
     color: var(--pub-color-zsc);
-    &:hover { background: var(--pub-color-zsc); color: white; opacity: 1; }
-    &.is-active { background: var(--pub-color-zsc); color: white; border-color: var(--pub-color-zsc); }
+    &:hover {
+      background: var(--pub-color-zsc);
+      color: white;
+      opacity: 1;
+    }
+    &.is-active {
+      background: var(--pub-color-zsc);
+      color: white;
+      border-color: var(--pub-color-zsc);
+    }
   }
 
   &[data-filter="Data-Centric"] {
     border-color: var(--pub-color-dc);
     color: var(--pub-color-dc);
-    &:hover { background: var(--pub-color-dc); color: white; opacity: 1; }
-    &.is-active { background: var(--pub-color-dc); color: white; border-color: var(--pub-color-dc); }
+    &:hover {
+      background: var(--pub-color-dc);
+      color: white;
+      opacity: 1;
+    }
+    &.is-active {
+      background: var(--pub-color-dc);
+      color: white;
+      border-color: var(--pub-color-dc);
+    }
   }
 }
 
 html[data-theme="dark"] .pub-filter-btn {
   opacity: 0.8;
-  &:hover { opacity: 1; }
-  &.is-active { opacity: 1; }
+  &:hover {
+    opacity: 1;
+  }
+  &.is-active {
+    opacity: 1;
+  }
 }
 
 /* ── Per-entry category chips — yueyang .pub-tag style ───────────────── */

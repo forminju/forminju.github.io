@@ -2,23 +2,23 @@
    MinJu Jeon — Haein-inspired design (dark mode compatible)
    ============================================================ */
 
-/* 1. Color — light mode only */
+/* 1. Color — light mode only (single deep-navy accent) */
 :root {
-  --global-theme-color: #0057ff;
-  --global-hover-color: #0040cc;
+  --global-theme-color: #1f3a5f;
+  --global-hover-color: #16293f;
   --global-divider-color: rgba(0, 0, 0, 0.07);
 }
 
-/* 1b. Dark mode accent */
+/* 1b. Dark mode accent — muted slate-blue */
 html[data-theme="dark"] {
-  --global-theme-color: #4d8eff;
-  --global-hover-color: #6fa3ff;
+  --global-theme-color: #9db4d1;
+  --global-hover-color: #b6c8de;
   --global-divider-color: rgba(255, 255, 255, 0.08);
 }
 
 /* 2. Selection */
 ::selection {
-  background-color: #0057ff;
+  background-color: #1f3a5f;
   color: #fff;
 }
 
@@ -74,13 +74,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-
-  img:hover {
-    transform: scale(1.02);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--global-divider-color);
   }
 }
 
@@ -120,34 +114,16 @@ body {
   padding: 0.15rem 0.55rem !important;
   margin-right: 4px;
   margin-bottom: 5px;
-
-  &[data-kw="multimodal"] {
-    background: rgba(8, 145, 178, 0.1) !important;
-    color: #0891b2 !important;
-    border-color: rgba(8, 145, 178, 0.3) !important;
-  }
-  &[data-kw="retrieval"] {
-    background: rgba(124, 58, 237, 0.1) !important;
-    color: #7c3aed !important;
-    border-color: rgba(124, 58, 237, 0.3) !important;
-  }
-  &[data-kw="speech"] {
-    background: rgba(5, 150, 105, 0.1) !important;
-    color: #059669 !important;
-    border-color: rgba(5, 150, 105, 0.3) !important;
-  }
-  &[data-kw="datacentric"] {
-    background: rgba(217, 119, 6, 0.1) !important;
-    color: #d97706 !important;
-    border-color: rgba(217, 119, 6, 0.3) !important;
-  }
 }
 
-/* Bio keyword highlights */
-.kw-multimodal { color: #0891b2; font-weight: 600; }
-.kw-retrieval  { color: #7c3aed; font-weight: 600; }
-.kw-speech     { color: #059669; font-weight: 600; }
-.kw-datacentric{ color: #d97706; font-weight: 600; }
+/* Bio keyword highlights — monochrome: weight only, no color */
+.kw-multimodal,
+.kw-retrieval,
+.kw-speech,
+.kw-datacentric {
+  color: inherit;
+  font-weight: 600;
+}
 
 .kw-icon {
   font-size: 0.82em;
@@ -168,7 +144,9 @@ body {
     color: var(--global-theme-color);
     text-decoration: none;
     font-weight: 500;
-    &:hover { text-decoration: underline; }
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
@@ -386,16 +364,10 @@ abbr {
   }
 }
 
-
-/* 14. Fade-in animation */
-.fade-in {
-  opacity: 0;
-  transform: translateY(18px);
-  transition: opacity 0.65s ease-out, transform 0.65s ease-out;
-  transition-delay: var(--delay, 0s);
-}
-
+/* 14. Fade-in disabled — content renders immediately (no scroll animation) */
+.fade-in,
 .fade-in--visible {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
+  transition: none;
 }
