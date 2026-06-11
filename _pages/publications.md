@@ -19,9 +19,19 @@ nav_order: 2
   <button type="button" class="pub-filter-btn" data-filter="Data-Centric">Data-Centric</button>
 </div>
 
+<h2 class="pub-section-heading">Preprints &amp; Under Review</h2>
+
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @*[status=preprint] %}
+
+</div>
+
+<h2 class="pub-section-heading">Publications</h2>
+
+<div class="publications">
+
+{% bibliography --query @*[status=published] %}
 
 </div>
 

@@ -245,6 +245,16 @@ html[data-theme="dark"] {
   color: var(--global-theme-color);
 }
 
+/* ── Section heading (Preprints / Publications) ─────────────────────── */
+.pub-section-heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--global-theme-color);
+  margin: 2.5rem 0 0.25rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--global-divider-color);
+}
+
 /* ── Category filter — exact yueyang .tag-filters / .tag-btn style ───── */
 .pub-filter {
   display: flex;
