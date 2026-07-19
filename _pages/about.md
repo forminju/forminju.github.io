@@ -50,12 +50,12 @@ My research centers on <span class="kw-multimodal"><span class="kw-icon">🧠</s
     <div class="tl-right"><strong>Research Intern</strong>, LG AI Research · EXAONE Lab</div>
   </div>
   <div class="tl-item">
-    <div class="tl-left">Dec 2025 – Present</div>
+    <div class="tl-left">Dec 2025 – June 2026</div>
     <div class="tl-logo"><img src="/assets/img/logos/navercloud.png" alt="Naver Cloud" class="logo-invert" /></div>
     <div class="tl-right"><strong>Research Intern</strong>, Naver Cloud · Voice Tech Team<br><span class="tl-sub">Multilingual G2P &amp; robust TTS for non-canonical text</span></div>
   </div>
   <div class="tl-item">
-    <div class="tl-left">Sep 2024 – Present</div>
+    <div class="tl-left">Sep 2024 – Aug 2026</div>
     <div class="tl-logo"><img src="/assets/img/logos/hanyang.png" alt="Hanyang University" class="logo-invert" /></div>
     <div class="tl-right"><strong>M.S. in Data Science</strong>, Hanyang University</div>
   </div>
