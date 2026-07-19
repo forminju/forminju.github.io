@@ -15,7 +15,7 @@ social: false
 
 <div class="fade-in" style="--delay: 0s">
 
-Hi! I'm MinJu Jeon, a Master's student in Data Science at <a href="https://www.hanyang.ac.kr/" target="_blank">Hanyang University</a>, advised by <a href="https://sites.google.com/view/hyu-mm/home" target="_blank">Prof. DongJin Kim</a>, and currently a Research Intern at Naver Cloud, Voice Tech team.
+Hi! I'm MinJu Jeon, a Master's student in Data Science at <a href="https://www.hanyang.ac.kr/" target="_blank">Hanyang University</a>, advised by <a href="https://sites.google.com/view/hyu-mm/home" target="_blank">Prof. DongJin Kim</a>, and currently a Research Intern at LG AI Research, EXAONE Lab.
 
 <br>
 
