@@ -1,16 +1,9 @@
 cv:
   name: MinJu Jeon
-  label: AI Researcher
+  headline: AI Researcher
   email: mnju5026@naver.com
   phone: "+82 010 8975 5026"
-  address:
-    city: Seoul
-    countryCode: KR
-
-  summary: >
-    AI researcher with hands-on experience in large-scale multimodal model training and data-centric optimization.
-    My work spans vision-language pre-training, post-training refinement (data curation, synthetic caption generation,
-    retrieval-augmented learning), and production deployment of multimodal systems.
+  location: Seoul, South Korea
 
   social_networks:
     - network: LinkedIn
@@ -19,6 +12,9 @@ cv:
       username: forminju
 
   sections:
+    Summary:
+      - AI researcher with hands-on experience in large-scale multimodal model training and data-centric optimization. My work spans vision-language pre-training, post-training refinement (data curation, synthetic caption generation, retrieval-augmented learning), and production deployment of multimodal systems.
+
     Experience:
       - company: LG AI Research
         position: Research Intern, EXAONE Lab
@@ -57,7 +53,7 @@ cv:
     Education:
       - institution: Hanyang University
         area: Data Science
-        studyType: M.S.
+        degree: M.S.
         location: Seoul, South Korea
         start_date: "2024"
         end_date: "2026"
@@ -66,7 +62,7 @@ cv:
 
       - institution: Hanyang University
         area: Industrial Engineering, Big Data Science (Double Major)
-        studyType: B.S.
+        degree: B.S.
         location: Seoul, South Korea
         start_date: "2020"
         end_date: "2024"
@@ -74,39 +70,72 @@ cv:
 
     Publications:
       - title: "Sali4Vid: Saliency-Aware Video Reweighting and Adaptive Caption Retrieval for Dense Video Captioning"
-        authors: "MinJu Jeon, S.-W. Kim, Y.-C. Kim, H. Kim, Dong-Jin Kim"
-        venue: EMNLP 2025 (Long, Main)
-        year: 2025
+        authors:
+          - "**MinJu Jeon**"
+          - S.-W. Kim
+          - Y.-C. Kim
+          - H. Kim
+          - Dong-Jin Kim
+        journal: EMNLP 2025 (Long, Main)
+        date: "2025"
 
       - title: "Cap4Bridge: Caption-Guided Cross-Modal Contextualization with Stochastic Augmentation for Text-Video Retrieval"
-        authors: "MinJu Jeon, H. Kim, S.-W. Kim, Y. Oh, S. Lee, Dong-Jin Kim"
-        venue: "IEEE Access (IF: 3.6)"
-        year: 2026
+        authors:
+          - "**MinJu Jeon**"
+          - H. Kim
+          - S.-W. Kim
+          - Y. Oh
+          - S. Lee
+          - Dong-Jin Kim
+        journal: "IEEE Access (IF: 3.6)"
+        date: "2026"
 
       - title: "Enhancing Lightweight Image Captioning with Localized Features and Keyword Extraction"
-        authors: "MinJu Jeon, S.-W. Kim, S. Lee, Dong-Jin Kim"
-        venue: Under Review
-        year: ""
+        authors:
+          - "**MinJu Jeon**"
+          - S.-W. Kim
+          - S. Lee
+          - Dong-Jin Kim
+        journal: Under Review
 
       - title: "Time-aware Video Frame Reweighting and Captioning Tool"
-        authors: "MinJu Jeon, et al."
-        venue: "Patent, Reg. No.: C-2025-058417"
-        year: 2025
+        authors:
+          - "**MinJu Jeon**"
+          - et al.
+        journal: "Patent, Reg. No.: C-2025-058417"
+        date: "2025"
 
       - title: "Follow the Saliency: Supervised Saliency for Retrieval-augmented Dense Video Captioning"
-        authors: "S.-H. Choi, MinJu Jeon, H. Oh, J. Lee, Dong-Jin Kim"
-        venue: CVPR 2026
-        year: 2026
+        authors:
+          - S.-H. Choi
+          - "**MinJu Jeon**"
+          - H. Oh
+          - J. Lee
+          - Dong-Jin Kim
+        journal: CVPR 2026
+        date: "2026"
 
       - title: "SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised DVC"
-        authors: "Y.-C. Kim, S. Cha, S.-W. Kim, MinJu Jeon, H. Kim, Dong-Jin Kim"
-        venue: CVPR 2026
-        year: 2026
+        authors:
+          - Y.-C. Kim
+          - S. Cha
+          - S.-W. Kim
+          - "**MinJu Jeon**"
+          - H. Kim
+          - Dong-Jin Kim
+        journal: CVPR 2026
+        date: "2026"
 
       - title: "SynC: Synthetic Image Caption Dataset Refinement with One-to-many Mapping for Zero-shot Image Captioning"
-        authors: "S.-W. Kim, MinJu Jeon, Y.-C. Kim, S. Lee, T. Kim, Dong-Jin Kim"
-        venue: ACM MM 2025
-        year: 2025
+        authors:
+          - S.-W. Kim
+          - "**MinJu Jeon**"
+          - Y.-C. Kim
+          - S. Lee
+          - T. Kim
+          - Dong-Jin Kim
+        journal: ACM MM 2025
+        date: "2025"
 
     Projects:
       - name: Retrieval-Augmented Dense Video Captioning and QA System
@@ -139,19 +168,19 @@ cv:
         details: "Large Multimodal Models, Vision-Language Training, Training Data Refinement"
 
     Awards:
-      - title: Best Paper Award (Bronze)
+      - name: Best Paper Award (Bronze)
         date: "2025"
-        awarder: IEIE Summer Annual Conference
-      - title: Outstanding Poster Presentation Award
+        summary: IEIE Summer Annual Conference
+      - name: Outstanding Poster Presentation Award
         date: "2024"
-        awarder: IEIE Summer Annual Conference
-      - title: Bronze Prize
+        summary: IEIE Summer Annual Conference
+      - name: Bronze Prize
         date: "2022"
-        awarder: "DACON AI Competition (Mandarin Orange Yield Prediction)"
+        summary: "DACON AI Competition (Mandarin Orange Yield Prediction)"
 
     References:
       - name: Dong-Jin Kim
-        relation: Thesis Advisor
+        summary: Thesis Advisor
         highlights:
           - "Assistant Professor, Department of Data Science, Hanyang University"
           - "Email: djkim.hanyang@gmail.com"
