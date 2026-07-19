@@ -27,13 +27,12 @@ My research centers on <span class="kw-multimodal"><span class="kw-icon">🧠</s
   <div class="contact-icons">{% social_links %}</div>
 </div>
 
-
 ---
 
 ### News
 
 <div class="news-list fade-in" style="--delay: 0.3s">
-  <div class="news-item"><span class="news-date">June 2026</span><span class="news-text">Joining <strong>LG AI Research</strong> as a Research Intern at the <strong>EXAONE Lab</strong> (Incoming)</span></div>
+  <div class="news-item"><span class="news-date">June 2026</span><span class="news-text">Started research internship at <strong>LG AI Research</strong>, <strong>EXAONE Lab</strong></span></div>
   <div class="news-item"><span class="news-date">Mar 2026</span><span class="news-text"><strong>Cap4Bridge</strong> accepted at <strong>IEEE Access 2026</strong></span></div>
   <div class="news-item"><span class="news-date">Feb 2026</span><span class="news-text">Two papers accepted at <strong>CVPR 2026</strong></span></div>
   <div class="news-item"><span class="news-date">Dec 2025</span><span class="news-text">Started research internship at <strong>Naver Cloud</strong>, Voice Tech Team</span></div>
@@ -46,9 +45,9 @@ My research centers on <span class="kw-multimodal"><span class="kw-icon">🧠</s
 
 <div class="timeline fade-in" style="--delay: 0.45s">
   <div class="tl-item">
-    <div class="tl-left">June 2026 – Incoming</div>
+    <div class="tl-left">June 2026 – Present</div>
     <div class="tl-logo"><img src="/assets/img/logos/lgai.png" alt="LG AI Research" /></div>
-    <div class="tl-right"><strong>Research Intern</strong>, LG AI Research · EXAONE Lab<br><span class="tl-sub">Incoming</span></div>
+    <div class="tl-right"><strong>Research Intern</strong>, LG AI Research · EXAONE Lab</div>
   </div>
   <div class="tl-item">
     <div class="tl-left">Dec 2025 – Present</div>
@@ -66,4 +65,3 @@ My research centers on <span class="kw-multimodal"><span class="kw-icon">🧠</s
     <div class="tl-right"><strong>B.S. in Industrial Engineering</strong>, Hanyang University</div>
   </div>
 </div>
-
