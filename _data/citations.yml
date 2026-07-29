@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-29'
 papers:
   FdinrVsAAAAJ:2osOgNQ5qMEC:
     citations: 3
@@ -22,7 +22,7 @@ papers:
     title: 'Sali4Vid: Saliency-Aware Video Reweighting and Adaptive Caption Retrieval for Dense Video Captioning'
     year: '2025'
   FdinrVsAAAAJ:u-x6o8ySG0sC:
-    citations: 5
+    citations: 6
     title: 'SynC: Synthetic Image Caption Dataset Refinement with One-to-many Mapping for Zero-shot Image Captioning'
     year: '2025'
   FdinrVsAAAAJ:zYLM7Y9cAGgC:
