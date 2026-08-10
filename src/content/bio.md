@@ -5,9 +5,11 @@ shortBio: "AI researcher at LG AI Research (EXAONE Lab). Large multimodal models
 institution: "LG AI Research · EXAONE Lab"
 ---
 
-Hi, I'm **MinJu Jeon**, an AI researcher working on **large multimodal models**: how they are trained, what data shapes them, and how they act in the world.
+I'm **MinJu Jeon**, an AI researcher at **LG AI Research (EXAONE Lab)**. I train **large multimodal models**, with a focus on the data that shapes them.
 
-I'm currently at **LG AI Research (EXAONE Lab)**. Before that, I worked on multilingual speech at **NAVER Cloud** and did my M.S. research at **Hanyang University**'s Multimodal AI Lab with [Prof. Dong-Jin Kim](https://sites.google.com/view/hyu-mm/home). One thread runs through all of it: a **data-centric** conviction that what a model learns from matters as much as its architecture. These days I'm most excited about **interactive and agentic AI**: models that use tools, navigate GUIs, and write code to get things done.
+Before joining LG, I worked on multilingual speech (grapheme-to-phoneme, robust TTS) at **NAVER Cloud** Voice Tech, and on vision-language understanding (dense video captioning, text-video retrieval) at **Hanyang University**'s Multimodal AI Lab, advised by [Prof. Dong-Jin Kim](https://sites.google.com/view/hyu-mm/home).
+
+Across all of this, my approach is **data-centric**: the quality of training data decides the quality of a model, so I build, curate, and refine it. My next direction is **agentic AI**: models that act through code, tools, and GUIs rather than only generating text.
 
 ## Research Interests
 
