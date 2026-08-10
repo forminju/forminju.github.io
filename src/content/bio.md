@@ -1,13 +1,30 @@
 ---
 name: "MinJu Jeon"
-avatar: "me.jpg"
-shortBio: "M.S. student in Data Science at Hanyang University and Research Intern at LG AI Research (EXAONE Lab). Working on multimodal learning and large-scale model training."
-institution: "Hanyang University · LG AI Research"
+avatar: "photo.jpg"
+shortBio: "AI researcher at LG AI Research (EXAONE Lab). Large multimodal models, data-centric training, and agentic AI."
+institution: "LG AI Research · EXAONE Lab"
 ---
 
-Hi, I'm **MinJu Jeon**, a Master's student in Data Science at [Hanyang University](https://www.hanyang.ac.kr/), advised by [Prof. Dong-Jin Kim](https://sites.google.com/view/hyu-mm/home) in the Multimodal AI Lab, and currently a Research Intern at **LG AI Research (EXAONE Lab)**.
+Hi, I'm **MinJu Jeon**, an AI researcher working on **large multimodal models**: how they are trained, what data shapes them, and how they act in the world.
 
-I work on **multimodal learning** and **large-scale model training**. My research spans vision-language understanding (dense video captioning, text-video retrieval) and multilingual speech (grapheme-to-phoneme, text-to-speech), with a strong focus on **data-centric** methods that make models more robust across modalities and languages. Lately I'm increasingly drawn to **interactive and agentic AI**, where models act through tools and environments rather than producing text alone.
+I'm currently at **LG AI Research (EXAONE Lab)**. Before that, I worked on multilingual speech at **NAVER Cloud** and did my M.S. research at **Hanyang University**'s Multimodal AI Lab with [Prof. Dong-Jin Kim](https://sites.google.com/view/hyu-mm/home). One thread runs through all of it: a **data-centric** conviction that what a model learns from matters as much as its architecture. These days I'm most excited about **interactive and agentic AI**: models that use tools, navigate GUIs, and write code to get things done.
+
+## Research Interests
+
+<div class="ri-grid">
+  <div class="ri-card">
+    <span class="ri-title">Multimodal &amp; Vision-Language Learning</span>
+    <span class="ri-desc">Multimodal understanding, vision-language models, document and GUI understanding</span>
+  </div>
+  <div class="ri-card">
+    <span class="ri-title">Model Training &amp; Data-Centric AI</span>
+    <span class="ri-desc">Pre-training, mid-training, post-training, data curation, synthetic and trajectory data</span>
+  </div>
+  <div class="ri-card">
+    <span class="ri-title">Interactive &amp; Agentic AI</span>
+    <span class="ri-desc">Code generation, GUI agents, tool use, and environment interaction</span>
+  </div>
+</div>
 
 ## Experience
 
@@ -37,15 +54,6 @@ I work on **multimodal learning** and **large-scale model training**. My researc
     <span class="exp-period">Sep 2024 &ndash; Present</span>
   </div>
 </div>
-
-## Research Interests
-
-- **Multimodal & Vision-Language Learning**  
-  Multimodal understanding, vision-language models, document and GUI understanding
-- **Model Training & Data-Centric AI**  
-  Pre-training, mid-training, post-training, data curation, synthetic and trajectory data
-- **Interactive & Agentic AI**  
-  Code generation, GUI agents, tool use, and environment interaction
 
 ## News
 
