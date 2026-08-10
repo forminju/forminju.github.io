@@ -1,17 +1,35 @@
-_site
-.bundle
-.DS_store
-.idea
-.jekyll-cache
-.jekyll-metadata
-.ruby-version
-.sass-cache
-.tweet-cache
-.venv
-assets/libs/
-assets/rendercv/rendercv_output/*.typ
-Gemfile.lock
+scripts/gen-favicon/favicons/
+
+# build output
+dist/
+# generated types
+.astro/
+
+# dependencies
 node_modules/
-vendor/
-*.pdf
-!assets/pdf/**
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+
+# leftover from previous Jekyll setup (root-owned, ignore)
+_site/
+.jekyll-cache/
+.tweet-cache/
+
+# claude local settings/temp
+.claude/settings.local.json
+.claude/*.tmp.*
