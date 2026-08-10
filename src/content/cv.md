@@ -1,6 +1,6 @@
 ---
 name: "MinJu Jeon"
-title: "AI Researcher, Multimodal Learning"
+title: "Multimodal Learning & Data-Centric AI"
 experience:
   - role: "Research Intern, EXAONE Lab"
     institution: "LG AI Research"

@@ -1,11 +1,11 @@
 ---
 name: "MinJu Jeon"
 avatar: "photo.jpg"
-shortBio: "AI researcher at LG AI Research (EXAONE Lab). Large multimodal models, data-centric training, and agentic AI."
+shortBio: "AI researcher working on large multimodal models and the data behind them. Currently a research intern at LG AI Research (EXAONE Lab)."
 institution: "LG AI Research · EXAONE Lab"
 ---
 
-I'm **MinJu Jeon**, an AI researcher at **LG AI Research (EXAONE Lab)**, working on **large multimodal models** and the data behind them.
+I'm **MinJu Jeon**, an AI researcher working on **large multimodal models** and the data behind them. I'm currently a research intern at **LG AI Research (EXAONE Lab)**.
 
 Before joining LG, I worked on multilingual speech (grapheme-to-phoneme, robust TTS) at **NAVER Cloud** Voice Tech, and on vision-language understanding (dense video captioning, text-video retrieval) at **Hanyang University**'s Multimodal AI Lab, advised by [Prof. Dong-Jin Kim](https://sites.google.com/view/hyu-mm/home).
 
