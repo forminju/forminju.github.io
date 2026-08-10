@@ -13,11 +13,13 @@ Across all of this, my approach is **data-centric**: good models start with good
 
 ## News
 
-- **Jun 2026:** Started research internship at **LG AI Research**, **EXAONE Lab**
-- **Mar 2026:** *Cap4Bridge* accepted at **IEEE Access 2026**
-- **Feb 2026:** Two papers accepted at **CVPR 2026**
-- **Dec 2025:** Started research internship at **Naver Cloud**, Voice Tech Team
-- **Aug 2025:** *Sali4Vid* accepted at **EMNLP 2025** (Long, Main)
+<div class="news-list">
+  <div class="news-row"><span class="news-date">Jun 2026</span><span class="news-text">Joined <strong>LG AI Research</strong>, EXAONE Lab as a research intern</span></div>
+  <div class="news-row"><span class="news-date">Mar 2026</span><span class="news-text"><em>Cap4Bridge</em> accepted at <strong>IEEE Access</strong></span></div>
+  <div class="news-row"><span class="news-date">Feb 2026</span><span class="news-text">Two papers accepted at <strong>CVPR 2026</strong></span></div>
+  <div class="news-row"><span class="news-date">Dec 2025</span><span class="news-text">Joined <strong>NAVER Cloud</strong>, Voice Tech as a research intern</span></div>
+  <div class="news-row"><span class="news-date">Aug 2025</span><span class="news-text"><em>Sali4Vid</em> accepted at <strong>EMNLP 2025</strong> (Long, Main)</span></div>
+</div>
 
 ## Research Interests
 
