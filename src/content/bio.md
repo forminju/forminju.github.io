@@ -11,6 +11,14 @@ Before joining LG, I worked on multilingual speech (grapheme-to-phoneme, robust 
 
 Across all of this, my approach is **data-centric**: the quality of training data decides the quality of a model, so I build, curate, and refine it. My next direction is **agentic AI**: models that act through code, tools, and GUIs rather than only generating text.
 
+## News
+
+- **Jun 2026:** Started research internship at **LG AI Research**, **EXAONE Lab**
+- **Mar 2026:** *Cap4Bridge* accepted at **IEEE Access 2026**
+- **Feb 2026:** Two papers accepted at **CVPR 2026**
+- **Dec 2025:** Started research internship at **Naver Cloud**, Voice Tech Team
+- **Aug 2025:** *Sali4Vid* accepted at **EMNLP 2025** (Long, Main)
+
 ## Research Interests
 
 <div class="ri-grid">
@@ -57,10 +65,29 @@ Across all of this, my approach is **data-centric**: the quality of training dat
   </div>
 </div>
 
-## News
+## Selected Publications
 
-- **Jun 2026:** Started research internship at **LG AI Research**, **EXAONE Lab**
-- **Mar 2026:** *Cap4Bridge* accepted at **IEEE Access 2026**
-- **Feb 2026:** Two papers accepted at **CVPR 2026**
-- **Dec 2025:** Started research internship at **Naver Cloud**, Voice Tech Team
-- **Aug 2025:** *Sali4Vid* accepted at **EMNLP 2025** (Long, Main)
+<div class="sp-list">
+  <a class="sp-item" href="/publications/sali4vid">
+    <span class="sp-venue">EMNLP 2025</span>
+    <span class="sp-title">Sali4Vid: Saliency-Aware Video Reweighting and Adaptive Caption Retrieval for Dense Video Captioning</span>
+  </a>
+  <a class="sp-item" href="/publications/cap4bridge">
+    <span class="sp-venue">IEEE Access 2026</span>
+    <span class="sp-title">Cap4Bridge: Caption-Guided Cross-Modal Contextualization with Stochastic Augmentation for Text-Video Retrieval</span>
+  </a>
+  <a class="sp-item" href="/publications/follow-the-saliency">
+    <span class="sp-venue">CVPR 2026</span>
+    <span class="sp-title">Follow the Saliency: Supervised Saliency for Retrieval-augmented Dense Video Captioning</span>
+  </a>
+  <a class="sp-item" href="/publications/sail">
+    <span class="sp-venue">CVPR 2026</span>
+    <span class="sp-title">SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised Dense Video Captioning</span>
+  </a>
+  <a class="sp-item" href="/publications/sync">
+    <span class="sp-venue">ACM MM 2025</span>
+    <span class="sp-title">SynC: Synthetic Image Caption Dataset Refinement with One-to-many Mapping for Zero-shot Image Captioning</span>
+  </a>
+</div>
+
+<p class="sp-more"><a href="/publications">View all publications &rarr;</a></p>
