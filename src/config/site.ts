@@ -5,7 +5,7 @@ export const SITE: SiteConfig = {
     author: "MinJu Jeon",
     desc: "Personal academic portfolio of MinJu Jeon, AI researcher at LG AI Research (EXAONE Lab). Large multimodal models, data-centric training, and agentic AI.",
     title: "MinJu Jeon",
-    ogImage: "me.jpg",
+    ogImage: "photo.jpg",
     postPerPage: 5,
     favicon: "/favicon.svg",
     lang: "en",
