@@ -5,11 +5,11 @@ shortBio: "AI researcher at LG AI Research (EXAONE Lab). Large multimodal models
 institution: "LG AI Research · EXAONE Lab"
 ---
 
-I'm **MinJu Jeon**, an AI researcher at **LG AI Research (EXAONE Lab)**. I train **large multimodal models**, with a focus on the data that shapes them.
+I'm **MinJu Jeon**, an AI researcher at **LG AI Research (EXAONE Lab)**, working on **large multimodal models** and the data behind them.
 
 Before joining LG, I worked on multilingual speech (grapheme-to-phoneme, robust TTS) at **NAVER Cloud** Voice Tech, and on vision-language understanding (dense video captioning, text-video retrieval) at **Hanyang University**'s Multimodal AI Lab, advised by [Prof. Dong-Jin Kim](https://sites.google.com/view/hyu-mm/home).
 
-Across all of this, my approach is **data-centric**: the quality of training data decides the quality of a model, so I build, curate, and refine it. My next direction is **agentic AI**: models that act through code, tools, and GUIs rather than only generating text.
+Across all of this, my approach is **data-centric**: good models start with good data, so much of my work goes into building, curating, and refining it. Lately I'm also exploring **agentic AI**: models that act through code, tools, and GUIs, not just text.
 
 ## News
 
@@ -21,18 +21,35 @@ Across all of this, my approach is **data-centric**: the quality of training dat
 
 ## Research Interests
 
-<div class="ri-grid">
-  <div class="ri-card">
-    <span class="ri-title">Multimodal &amp; Vision-Language Learning</span>
-    <span class="ri-desc">Multimodal understanding, vision-language models, document and GUI understanding</span>
+<div class="ri-groups">
+  <div class="ri-group">
+    <div class="ri-label">Multimodal &amp; Vision-Language</div>
+    <div class="ri-chips">
+      <span class="ri-chip">multimodal understanding</span>
+      <span class="ri-chip">vision-language models</span>
+      <span class="ri-chip">document understanding</span>
+      <span class="ri-chip">GUI understanding</span>
+    </div>
   </div>
-  <div class="ri-card">
-    <span class="ri-title">Model Training &amp; Data-Centric AI</span>
-    <span class="ri-desc">Pre-training, mid-training, post-training, data curation, synthetic and trajectory data</span>
+  <div class="ri-group">
+    <div class="ri-label">Model Training &amp; Data-Centric AI</div>
+    <div class="ri-chips">
+      <span class="ri-chip">pre-training</span>
+      <span class="ri-chip">mid-training</span>
+      <span class="ri-chip">post-training</span>
+      <span class="ri-chip">data curation</span>
+      <span class="ri-chip">synthetic data</span>
+      <span class="ri-chip">trajectory data</span>
+    </div>
   </div>
-  <div class="ri-card">
-    <span class="ri-title">Interactive &amp; Agentic AI</span>
-    <span class="ri-desc">Code generation, GUI agents, tool use, and environment interaction</span>
+  <div class="ri-group">
+    <div class="ri-label">Interactive &amp; Agentic AI</div>
+    <div class="ri-chips">
+      <span class="ri-chip">code generation</span>
+      <span class="ri-chip">GUI agents</span>
+      <span class="ri-chip">tool use</span>
+      <span class="ri-chip">environment interaction</span>
+    </div>
   </div>
 </div>
 

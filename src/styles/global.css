@@ -765,42 +765,50 @@ a:hover,
    RESEARCH INTERESTS (About page)
    =========================================== */
 
-.ri-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.6rem;
-    margin: 0.25rem 0 0.5rem;
+.ri-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 1.15rem;
+    margin: 0.4rem 0 0.5rem;
 }
 
-.ri-card {
-    padding: 0.9rem 1.1rem;
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--accent);
-    border-radius: 0.7rem;
-    background: var(--surface);
-    transition: border-color 0.2s ease, transform 0.2s ease;
-}
-
-.ri-card:hover {
-    border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
-    border-left-color: var(--accent);
-    transform: translateX(2px);
-}
-
-.ri-title {
-    display: block;
-    font-family: var(--font-display);
-    font-weight: 600;
-    font-size: 0.97rem;
-    color: var(--foreground);
-    margin-bottom: 0.25rem;
-}
-
-.ri-desc {
-    display: block;
-    font-size: 0.84rem;
-    line-height: 1.5;
+.ri-label {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
     color: var(--text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.ri-label::before {
+    content: "//";
+    color: var(--accent);
+    margin-right: 0.45rem;
+}
+
+.ri-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.ri-chip {
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--foreground);
+    padding: 0.36rem 0.72rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+    transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.ri-chip:hover {
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
 
