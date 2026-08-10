@@ -1,6 +1,6 @@
 ---
 name: "MinJu Jeon"
-title: "AI Researcher — Multimodal Learning"
+title: "AI Researcher, Multimodal Learning"
 experience:
   - role: "Research Intern, EXAONE Lab"
     institution: "LG AI Research"
@@ -44,19 +44,19 @@ AI researcher with hands-on experience in large-scale multimodal model training 
 
 ## Selected Publications
 
-- **Sali4Vid: Saliency-Aware Video Reweighting and Adaptive Caption Retrieval for Dense Video Captioning** — *EMNLP 2025 (Long, Main)*
-- **Cap4Bridge: Caption-Guided Cross-Modal Contextualization with Stochastic Augmentation for Text-Video Retrieval** — *IEEE Access 2026*
-- **Follow the Saliency: Supervised Saliency for Retrieval-augmented Dense Video Captioning** — *CVPR 2026*
-- **SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised DVC** — *CVPR 2026*
-- **SynC: Synthetic Image Caption Dataset Refinement with One-to-many Mapping for Zero-shot Image Captioning** — *ACM MM 2025*
-- **Time-aware Video Frame Reweighting and Captioning Tool** — *Patent, Reg. No. C-2025-058417*
+- **Sali4Vid: Saliency-Aware Video Reweighting and Adaptive Caption Retrieval for Dense Video Captioning**, *EMNLP 2025 (Long, Main)*
+- **Cap4Bridge: Caption-Guided Cross-Modal Contextualization with Stochastic Augmentation for Text-Video Retrieval**, *IEEE Access 2026*
+- **Follow the Saliency: Supervised Saliency for Retrieval-augmented Dense Video Captioning**, *CVPR 2026*
+- **SAIL: Similarity-Aware Guidance and Inter-Caption Augmentation-based Learning for Weakly-Supervised DVC**, *CVPR 2026*
+- **SynC: Synthetic Image Caption Dataset Refinement with One-to-many Mapping for Zero-shot Image Captioning**, *ACM MM 2025*
+- **Time-aware Video Frame Reweighting and Captioning Tool**, *Patent, Reg. No. C-2025-058417*
 
 ## Awards
 
-- **Best Paper Award (Bronze)** — IEIE Summer Annual Conference, 2025
-- **Outstanding Poster Presentation Award** — IEIE Summer Annual Conference, 2024
-- **Bronze Prize** — DACON AI Competition (Mandarin Orange Yield Prediction), 2022
+- **Best Paper Award (Bronze)**, IEIE Summer Annual Conference, 2025
+- **Outstanding Poster Presentation Award**, IEIE Summer Annual Conference, 2024
+- **Bronze Prize**, DACON AI Competition (Mandarin Orange Yield Prediction), 2022
 
 ## References
 
-- **Dong-Jin Kim** — Thesis Advisor. Assistant Professor, Department of Data Science, Hanyang University. Email: djkim.hanyang@gmail.com
+- **Dong-Jin Kim**, Thesis Advisor. Assistant Professor, Department of Data Science, Hanyang University. Email: djkim.hanyang@gmail.com

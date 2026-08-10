@@ -4,21 +4,21 @@ export { type Theme, type ThemeName, type ThemeColors };
 
 export const THEMES: Record<string, Theme> = {
     light_default: {
-        background: "#f9fafb",
-        foreground: "#111827",
-        accent: "#3b82f6",
-        muted: "#6b7280",
-        border: "#e5e7eb",
-        surface: "#f9fafb",
+        background: "#ffffff",
+        foreground: "#0f172a",
+        accent: "#4f46e5",
+        muted: "#64748b",
+        border: "#e2e8f0",
+        surface: "#f8fafc",
         isDark: false,
     },
     dark_default: {
-        background: "#212737",
-        foreground: "#eaedf3",
-        accent: "#ff6b01",
-        muted: "#343f60",
-        border: "#ab4b08",
-        surface: "#212737",
+        background: "#0f172a",
+        foreground: "#e2e8f0",
+        accent: "#818cf8",
+        muted: "#94a3b8",
+        border: "#243449",
+        surface: "#172033",
         isDark: true,
     },
     light_notepad: {
