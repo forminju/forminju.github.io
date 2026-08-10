@@ -3,7 +3,7 @@ import type { SiteConfig, ThemeConfig, SettingsConfig, UmamiAnalyticsConfig, Ana
 export const SITE: SiteConfig = {
     website: "https://forminju.github.io/",
     author: "MinJu Jeon",
-    desc: "Personal academic portfolio of MinJu Jeon, AI researcher at LG AI Research (EXAONE Lab). Large multimodal models, data-centric training, and agentic AI.",
+    desc: "Personal academic portfolio of MinJu Jeon, an AI researcher working on large multimodal models. Currently a research intern at LG AI Research (EXAONE Lab).",
     title: "MinJu Jeon",
     ogImage: "photo.jpg",
     postPerPage: 5,
