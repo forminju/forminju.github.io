@@ -512,8 +512,8 @@ a:hover,
 }
 
 .sidebar-avatar {
-    width: 148px;
-    height: 148px;
+    width: 188px;
+    height: 188px;
     border-radius: 50%;
     object-fit: cover;
     padding: 3px;
@@ -695,6 +695,98 @@ a:hover,
     letter-spacing: -0.01em;
     color: var(--foreground);
     margin-bottom: 1rem;
+}
+
+
+/* ===========================================
+   EXPERIENCE (About page)
+   =========================================== */
+
+.exp-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin: 0.25rem 0 0.5rem;
+}
+
+.exp-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 0.8rem;
+    transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.exp-item:hover {
+    background: var(--surface);
+    border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+
+.exp-logo-chip {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 132px;
+    height: 46px;
+    padding: 0 12px;
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 0.55rem;
+}
+
+.exp-logo-chip img {
+    max-width: 100%;
+    max-height: 24px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0;
+}
+
+.exp-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+.exp-role {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.98rem;
+    color: var(--foreground);
+    line-height: 1.25;
+}
+
+.exp-team {
+    font-size: 0.83rem;
+    color: var(--text-muted);
+    line-height: 1.35;
+}
+
+.exp-period {
+    flex: 0 0 auto;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 560px) {
+    .exp-item {
+        flex-wrap: wrap;
+        gap: 0.6rem 0.85rem;
+    }
+    .exp-period {
+        width: 100%;
+        padding-left: calc(132px + 0.85rem);
+    }
 }
 
 
