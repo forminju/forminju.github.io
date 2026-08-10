@@ -512,19 +512,24 @@ a:hover,
 }
 
 .sidebar-avatar {
-    width: 188px;
-    height: 188px;
-    border-radius: 50%;
-    object-fit: cover;
-    padding: 3px;
-    background: var(--background);
-    box-shadow: 0 0 0 2px var(--border), 0 8px 24px -12px rgba(15, 23, 42, 0.45);
+    width: 100%;
+    max-width: 216px;
+    height: auto;
+    border-radius: 1rem;
+    display: block;
+    box-shadow: 0 0 0 1px var(--border), 0 10px 28px -14px rgba(15, 23, 42, 0.45);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .sidebar-avatar:hover {
-    box-shadow: 0 0 0 2px var(--accent), 0 10px 28px -10px color-mix(in srgb, var(--accent) 55%, transparent);
+    box-shadow: 0 0 0 2px var(--accent), 0 12px 30px -12px color-mix(in srgb, var(--accent) 55%, transparent);
     transform: translateY(-2px);
+}
+
+@media (max-width: 1023px) {
+    .sidebar-avatar {
+        max-width: 120px;
+    }
 }
 
 .sidebar-name {
@@ -695,6 +700,49 @@ a:hover,
     letter-spacing: -0.01em;
     color: var(--foreground);
     margin-bottom: 1rem;
+}
+
+
+/* ===========================================
+   RESEARCH INTERESTS (About page)
+   =========================================== */
+
+.ri-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+    margin: 0.25rem 0 0.5rem;
+}
+
+.ri-card {
+    padding: 0.9rem 1.1rem;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 0.7rem;
+    background: var(--surface);
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.ri-card:hover {
+    border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+    border-left-color: var(--accent);
+    transform: translateX(2px);
+}
+
+.ri-title {
+    display: block;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.97rem;
+    color: var(--foreground);
+    margin-bottom: 0.25rem;
+}
+
+.ri-desc {
+    display: block;
+    font-size: 0.84rem;
+    line-height: 1.5;
+    color: var(--text-muted);
 }
 
 
