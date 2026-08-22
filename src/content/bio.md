@@ -14,6 +14,7 @@ Across all of this, my approach is **data-centric**: good models start with good
 ## News
 
 <div class="news-list">
+  <div class="news-row"><span class="news-date">Aug 2026</span><span class="news-text"><em>UGTPhon</em> accepted at <strong>EMNLP 2026</strong> (Findings, Long)</span></div>
   <div class="news-row"><span class="news-date">Jun 2026</span><span class="news-text">Joined <strong>LG AI Research</strong>, EXAONE Lab as a research intern</span></div>
   <div class="news-row"><span class="news-date">Mar 2026</span><span class="news-text"><em>Cap4Bridge</em> accepted at <strong>IEEE Access</strong></span></div>
   <div class="news-row"><span class="news-date">Feb 2026</span><span class="news-text">Two papers accepted at <strong>CVPR 2026</strong></span></div>
