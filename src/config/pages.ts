@@ -13,7 +13,7 @@ export const PAGES: PagesConfig = {
     },
     publications: {
         title: "Publications",
-        subtitle: "Peer-reviewed papers and preprints in multimodal learning.",
+        subtitle: "Research on multimodal learning, language models, and data-centric AI.",
         isActive: true,
     },
     talks: {

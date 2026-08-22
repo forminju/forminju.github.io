@@ -35,7 +35,15 @@ const sortedEntries = entries.sort((a: any, b: any) => {
     <section class="item-list">
         {sortedEntries.map((entry: any) => {
             const item = getListingItem(entry);
-            return <BaseItemCard {...item} href={`/${collection}/${entry.id}`} />;
+            const isPublication = collection === "publications";
+            return (
+                <BaseItemCard
+                    {...item}
+                    href={`/${collection}/${entry.id}`}
+                    showDate={!isPublication}
+                    externalLabel={isPublication ? "Paper" : "View"}
+                />
+            );
         })}
     </section>
 

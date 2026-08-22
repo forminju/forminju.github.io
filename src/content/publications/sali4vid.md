@@ -3,7 +3,6 @@ title: "Sali4Vid: Saliency-Aware Video Reweighting and Adaptive Caption Retrieva
 author: "MinJu Jeon, Si-Woo Kim, Ye-Chan Kim, HyunGee Kim, Dong-Jin Kim"
 date: "2025-11-01"
 journal: "EMNLP 2025 (Long, Main)"
-external_url: "https://aclanthology.org/"
 image: "/images/pub/sali4vid.jpg"
 tags:
   - "Dense Video Captioning"
