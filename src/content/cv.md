@@ -60,4 +60,4 @@ AI researcher working on data-centric training for multimodal and language model
 
 ## References
 
-- **Dong-Jin Kim**, Thesis Advisor. Assistant Professor, Department of Data Science, Hanyang University. Email: djkim.hanyang@gmail.com
+- **Dong-Jin Kim**, Thesis Advisor. Assistant Professor, Department of Data Science, Hanyang University. Email: djdkim@hanyang.ac.kr
