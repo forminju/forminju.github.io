@@ -5,6 +5,7 @@ import BackLink from "../components/ui/BackLink.astro";
 import Tag from "../components/ui/Tag.astro";
 import Icon from "../components/ui/Icon.astro";
 import { getDetailItem } from "../utils/adapters";
+import { splitAuthors } from "../utils/authors";
 import { SITE } from "../config";
 
 interface Props {
@@ -20,14 +21,17 @@ if (!entry) return Astro.redirect("/404");
 const { Content } = await render(entry);
 const detail = getDetailItem(entry, collection);
 
+const isPublication = collection === "publications";
+
+// Publications lead with the venue; the frontmatter date only drives sorting.
 const meta = [];
-if (detail.date) meta.push({ label: "Date", value: detail.date, icon: "Calendar" });
-if (detail.authors) meta.push({ label: "Author", value: detail.authors, icon: "User" });
 if (detail.extraInput) {
     const icon = "Institution";
-    const label = collection === "publications" ? "Journal" : collection === "talks" ? "Event" : collection === "teaching" ? "Institution" : "Info";
+    const label = isPublication ? "Journal" : collection === "talks" ? "Event" : collection === "teaching" ? "Institution" : "Info";
     meta.push({ label, value: detail.extraInput, icon });
 }
+if (detail.authors) meta.push({ label: "Author", value: detail.authors, icon: "User", authors: splitAuthors(detail.authors) });
+if (detail.date && !isPublication) meta.push({ label: "Date", value: detail.date, icon: "Calendar" });
 
 const description = entry.data.description || detail.description || SITE.desc;
 const ogImage = entry.data.image || SITE.ogImage;
@@ -38,7 +42,7 @@ const ogImage = entry.data.image || SITE.ogImage;
         <BackLink href={detail.backHref} label={collection} />
         {detail.externalUrl && (
             <a href={detail.externalUrl} target="_blank" rel="noopener noreferrer" class="link">
-                View external
+                {isPublication ? "Paper" : "View external"}
             </a>
         )}
     </div>
@@ -51,7 +55,7 @@ const ogImage = entry.data.image || SITE.ogImage;
                 {meta.map((m: any) => (
                     <span class="flex items-center gap-1">
                         <Icon name={m.icon} size={14} />
-                        <span>{m.value}</span>
+                        <span>{m.authors ? m.authors.map((author: any, i: number) => (<span>{i > 0 ? ", " : ""}{author.isSelf ? <strong>{author.name}</strong> : author.name}</span>)) : m.value}</span>
                     </span>
                 ))}
             </div>

@@ -1,6 +1,7 @@
 ---
 import Tag from "./Tag.astro";
 import Icon from "./Icon.astro";
+import { splitAuthors } from "../../utils/authors";
 
 interface Props {
     title: string;
@@ -11,10 +12,26 @@ interface Props {
     extraInput?: string;
     tags?: string[];
     externalUrl?: string;
+    externalLabel?: string;
     image?: string;
+    showDate?: boolean;
 }
 
-const { title, href, description, date, authors, extraInput, tags, externalUrl, image } = Astro.props;
+const {
+    title,
+    href,
+    description,
+    date,
+    authors,
+    extraInput,
+    tags,
+    externalUrl,
+    externalLabel = "View",
+    image,
+    showDate = true,
+} = Astro.props;
+
+const authorParts = authors ? splitAuthors(authors) : [];
 ---
 
 <article class="card">
@@ -30,22 +47,22 @@ const { title, href, description, date, authors, extraInput, tags, externalUrl, 
         <a href={href} class="card-title">{title}</a>
 
         <div class="card-meta">
-            {date && (
-                <span class="flex items-center gap-1">
-                    <Icon name="Calendar" size={24} />
-                    <span>{date}</span>
-                </span>
-            )}
-            {authors && (
-                <span class="flex items-center gap-1">
-                    <Icon name="User" size={24} />
-                    <span>{authors}</span>
-                </span>
-            )}
             {extraInput && (
                 <span class="flex items-center gap-1">
                     <Icon name="Institution" size={24} />
                     <span>{extraInput}</span>
+                </span>
+            )}
+            {authorParts.length > 0 && (
+                <span class="flex items-center gap-1">
+                    <Icon name="User" size={24} />
+                    <span>{authorParts.map((author, i) => (<span>{i > 0 ? ", " : ""}{author.isSelf ? <strong>{author.name}</strong> : author.name}</span>))}</span>
+                </span>
+            )}
+            {showDate && date && (
+                <span class="flex items-center gap-1">
+                    <Icon name="Calendar" size={24} />
+                    <span>{date}</span>
                 </span>
             )}
         </div>
@@ -67,7 +84,7 @@ const { title, href, description, date, authors, extraInput, tags, externalUrl, 
         externalUrl && (
             <div class="flex-shrink-0">
                 <a href={externalUrl} target="_blank" rel="noopener noreferrer" class="card-link">
-                    View
+                    {externalLabel}
                 </a>
             </div>
         )
